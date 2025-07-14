@@ -1,0 +1,7 @@
+---
+description: TSDoc Rules
+globs: "**/*.{ts,tsx,js,jsx}"
+alwaysApply: true
+---
+
+- 使用中文按照TSDoc规范添加代码注释，并写入代码原理或机制。
