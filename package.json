@@ -14,7 +14,8 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "clean": "git clean -xdf node_modules",
-    "libs:fix": "pnpm dlx sherif@latest --fix"
+    "libs:fix": "pnpm dlx sherif@latest --fix",
+    "bump-ui": "npx shadcn@latest add --all --overwrite -c packages/design-system"
   },
   "config": {
     "commitizen": {
